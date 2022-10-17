@@ -1,0 +1,9 @@
+/*id는 #id 로 작성*/
+#test {
+    background-color: black;
+}
+
+/* class는 .클래스명 으로 작성 */
+.first{
+    color: blue;
+}
