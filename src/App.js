@@ -6,7 +6,7 @@ import Compo1 from './compo/Compo1';
 import Compo2 from './compo/Compo2';
 
 
-// app이라는 태그를 만드는 공간
+// app이라는 사용자 정의 태그를 만드는 공간
 function App() {  // 부모 컴포넌트
 
   // react에서는 const로만 선언하는게 좋다. (변수명이 겹치면 안되기 때문에)
@@ -16,7 +16,7 @@ function App() {  // 부모 컴포넌트
 
   // return 안에 사용자 정의 태그 구조를 작성할 수 있다. 
   return (
-    // JSX 문법 -> JavaScript와 HTML을 같이 사용할 수 있는 문법!
+    // 🔥🔥JSX 문법 -> JavaScript와 HTML을 같이 사용할 수 있는 문법!
     // 계속 감시하고 있어서 수정사항이 일어나면 자동으로 반영함 
     // 규칙 1 : 꼭 html 구조는 한 가지 태그로 묶여있어야 한다. 
     // 규칙 2 : 모든 태그는 여는태그와 닫는 태그가 둘다 존재해야한다. 
